@@ -1,0 +1,22 @@
+application: free-skies
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: no
+
+handlers:
+- url: /SeniorDesign\.css
+  static_files: AutismSeniorDesign/SeniorDesign.css
+  upload: AutismSeniorDesign/SeniorDesign\.css
+
+- url: /icon\.png
+  static_files: AutismSeniorDesign/icon.png
+  upload: AutismSeniorDesign/icon\.png
+
+- url: /Project Plan\.pdf
+  static_files: AutismSeniorDesign/Project Plan.pdf
+  upload: AutismSeniorDesign/Project Plan\.pdf
+
+- url: /Presentation\.pdf
+  static_files: AutismSeniorDesign/Presentation.pdf
+  upload: AutismSeniorDesign/Presentation\.pdf
