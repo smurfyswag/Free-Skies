@@ -6,7 +6,7 @@ handlers:
 - url: /index\.html
   static_files: AutismSeniorDesign/index.html
   upload: AutismSeniorDesign/index\.html
-  
+
 - url: /SeniorDesign\.css
   static_files: AutismSeniorDesign/SeniorDesign.css
   upload: AutismSeniorDesign/SeniorDesign\.css
@@ -22,3 +22,12 @@ handlers:
 - url: /Presentation\.pdf
   static_files: AutismSeniorDesign/Presentation.pdf
   upload: AutismSeniorDesign/Presentation\.pdf
+
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+- name: jinja2
+  version: latest
